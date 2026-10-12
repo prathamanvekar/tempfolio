@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Prathamesh Anvekar — systems, security and applied AI engineer.">
+  <title>prathamesh / profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Prathamesh Anvekar home">
+      <span class="brand-mark" aria-hidden="true">p/</span>
+      <span>prathamesh<span class="muted">.profile</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a class="nav-link is-active" href="#work">work</a>
+      <a class="nav-link" href="#signals">signals</a>
+      <a class="nav-link" href="#about">about</a>
+    </nav>
+    <div class="top-actions">
+      <span class="availability"><span class="status-dot"></span> open to interesting problems</span>
+      <button class="icon-button" id="focus-toggle" type="button" aria-pressed="false" aria-label="Toggle focus mode" title="Toggle focus mode (F)">focus</button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-wrap" id="top">
+      <div class="hero-copy">
+        <p class="command-line"><span class="prompt">~/profile</span> <span class="slash">/</span> now reading</p>
+        <h1>I build systems<br><em>worth inspecting.</em></h1>
+        <p class="hero-intro">Prathamesh Anvekar is an engineer working where applied AI, security, and low-level systems meet.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Inspect the work <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="mailto:anvekarprathamesh13@gmail.com">Start a conversation <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <aside class="hero-readout" aria-label="Profile readout">
+        <div class="readout-head"><span>PROFILE / 001</span><span class="live-label"><span class="status-dot"></span> live</span></div>
+        <div class="readout-body">
+          <div class="readout-row"><span>focus</span><strong>AI × systems × security</strong></div>
+          <div class="readout-row"><span>based in</span><strong>Pune, India</strong></div>
+          <div class="readout-row"><span>studying</span><strong>ETC engineering · VIT Pune</strong></div>
+          <div class="readout-row"><span>signal</span><strong class="signal-value">high curiosity</strong></div>
+        </div>
+        <div class="readout-foot"><span>scroll to inspect</span><span class="key-hint">↓</span></div>
+      </aside>
+    </section>
+
+    <section class="section-wrap work-section" id="work">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">selected work</p>
+          <h2>Problems I chose to solve.</h2>
+        </div>
+        <p class="section-note">Two deep dives, one through the model stack and one through the kernel.</p>
+      </div>
+      <div class="project-list">
+        <article class="project-row" data-project="proxy">
+          <div class="project-index">01</div>
+          <div class="project-main">
+            <div class="project-title-line"><h3>Secure LLM Proxy Server</h3><span class="project-year">2026</span></div>
+            <p>Security-focused gateway for generative AI applications, with request validation, sensitive-data sanitization, and hardened RAG workflows.</p>
+            <div class="tag-list"><span>AI</span><span>FastAPI</span><span>RAG</span><span>security</span></div>
+          </div>
+          <div class="project-aside"><span class="project-type">research / build</span><a class="circle-link" href="https://github.com/prathamanvekar" target="_blank" rel="noreferrer" aria-label="Open Secure LLM Proxy Server on GitHub">↗</a></div>
+        </article>
+        <article class="project-row" data-project="sandbox">
+          <div class="project-index">02</div>
+          <div class="project-main">
+            <div class="project-title-line"><h3>Linux Kernel Sandbox</h3><span class="project-year">2026</span></div>
+            <p>Supervised execution engine for untrusted binaries, using seccomp-BPF and declarative JSON policies to make isolation inspectable.</p>
+            <div class="tag-list"><span>systems</span><span>C</span><span>Linux</span><span>seccomp-BPF</span></div>
+          </div>
+          <div class="project-aside"><span class="project-type">systems / build</span><a class="circle-link" href="https://github.com/prathamanvekar" target="_blank" rel="noreferrer" aria-label="Open Linux Kernel Sandbox on GitHub">↗</a></div>
+        </article>
+      </div>
+      <div class="work-footer"><span>Want the source?</span><a class="text-link" href="https://github.com/prathamanvekar" target="_blank" rel="noreferrer">Browse GitHub <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="section-wrap signals-section" id="signals">
+      <div class="section-heading">
+        <div><p class="section-label">signals</p><h2>Proof, not adjectives.</h2></div>
+        <p class="section-note">A few measurements from the path so far.</p>
+      </div>
+      <div class="signal-grid">
+        <article class="signal-block"><span class="signal-number">98<span>%</span></span><p>accuracy reached on a custom U-Net for brain tumor segmentation.</p></article>
+        <article class="signal-block"><span class="signal-number">150<span>th</span></span><p>ranked in the Amazon ML Challenge among 80,000+ participants.</p></article>
+        <article class="signal-block"><span class="signal-number">6/6</span><p>FamPay CTF challenges solved across Android, cloud, and web security.</p></article>
+        <article class="signal-block"><span class="signal-number">5<span>+</span></span><p>additional open-source PRs/MRs across Scribe and VS Code.</p></article>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item"><span class="timeline-date">2026 / now</span><div><h3>Machine Learning & AI Intern · Qriocity</h3><p>Built model-serving APIs, medical imaging pipelines, and recruiter-facing AI agent workflows.</p></div></div>
+        <div class="timeline-item"><span class="timeline-date">2025 / open source</span><div><h3>Contributor · Turso, Scribe, VS Code</h3><p>Fixed multi-byte UTF-8 corruption in Turso's JSON5 engine and shipped regression coverage.</p></div></div>
+        <div class="timeline-item"><span class="timeline-date">2023 / 2027</span><div><h3>B.Tech · Electronics & Telecommunication</h3><p>Vishwakarma Institute of Technology, Pune · CGPA 8.98.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section-wrap about-section" id="about">
+      <div class="about-copy"><p class="section-label">about the operator</p><h2>Curious by default.<br>Precise by practice.</h2><p>I like difficult boundaries: model and product, kernel and user space, a good idea and a safe implementation. Most days, that means Python, C, Go, or TypeScript—and an unreasonable number of tabs.</p></div>
+      <div class="about-detail"><div class="detail-group"><span>toolkit</span><p>Python · Go · C/C++ · JavaScript · TypeScript · SQL<br>PyTorch · TensorFlow · FastAPI · React · Docker · Linux</p></div><div class="detail-group"><span>outside the editor</span><p>CodeChef <strong>1420</strong> · Codeforces <strong>1092</strong><br>Top 4 · WOW Verse Hackathon 2025</p></div><div class="about-links"><a href="https://www.linkedin.com/in/prathamanvekar" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:anvekarprathamesh13@gmail.com">Email ↗</a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap"><span>© 2026 Prathamesh Anvekar</span><span>made to be inspected</span><a href="#top">back to top ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
